@@ -1,0 +1,187 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #dd7a7a;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #945656;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #e07978;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section Styling */
+  #about {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  #about .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.1em;
+  }
+  
+  /* Projects Section Styling */
+  #projects {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  #projects .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    background-color: #b9e6f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section Styling */
+  #contact {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  #contact .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c7a6a6;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #444;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #9d5e5e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    header .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav ul {
+      padding-top: 10px;
+    }
+  
+    header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #about .container,
+    #projects .container,
+    #contact .container {
+      width: 90%;
+    }
+  
+    form input,
+    form textarea {
+      width: 100%;
+    }
+  }
+  
